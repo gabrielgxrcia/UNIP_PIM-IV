@@ -13,6 +13,7 @@ using Bunifu.UI.WinForms;
 using System.IO;
 using System.Drawing.Imaging;
 using System.Security.Cryptography.X509Certificates;
+using Guna.UI2.WinForms;
 
 namespace Windows_Forms_DeskTop
 {
@@ -370,6 +371,17 @@ namespace Windows_Forms_DeskTop
                 {
                     bunifuPictureBox5.Image.Save(ms, bunifuPictureBox5.Image.RawFormat);
                     imagemBytes = ms.ToArray();
+                }
+            }
+        }
+
+        private void bunifuLabel48_Click(object sender, EventArgs e)
+        {
+            foreach (Control control in Controls)
+            {
+                if (control is Guna.UI2.WinForms.Guna2CheckBox checkBox)
+                {
+                    checkBox.Checked = false;
                 }
             }
         }

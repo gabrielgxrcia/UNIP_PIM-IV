@@ -10046,8 +10046,8 @@
             // 
             this.bunifuLabel48.AllowParentOverrides = false;
             this.bunifuLabel48.AutoEllipsis = false;
-            this.bunifuLabel48.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel48.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel48.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuLabel48.CursorType = System.Windows.Forms.Cursors.Hand;
             this.bunifuLabel48.Font = new System.Drawing.Font("Inter SemiBold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel48.ForeColor = System.Drawing.Color.DarkGray;
             this.bunifuLabel48.Location = new System.Drawing.Point(43, 482);
@@ -10058,6 +10058,7 @@
             this.bunifuLabel48.Text = "<u>Restaurar ao padrão</u>\r\n";
             this.bunifuLabel48.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel48.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.bunifuLabel48.Click += new System.EventHandler(this.bunifuLabel48_Click);
             // 
             // bunifuLabel49
             // 
@@ -10288,11 +10289,13 @@
             // 
             this.guna2CheckBox5.Animated = true;
             this.guna2CheckBox5.AutoSize = true;
+            this.guna2CheckBox5.Checked = true;
             this.guna2CheckBox5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CheckBox5.CheckedState.BorderRadius = 2;
             this.guna2CheckBox5.CheckedState.BorderThickness = 0;
             this.guna2CheckBox5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CheckBox5.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.guna2CheckBox5.CheckState = System.Windows.Forms.CheckState.Checked;
             this.guna2CheckBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CheckBox5.Font = new System.Drawing.Font("Inter", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CheckBox5.ForeColor = System.Drawing.Color.Silver;
@@ -10334,11 +10337,13 @@
             // 
             this.guna2CheckBox3.Animated = true;
             this.guna2CheckBox3.AutoSize = true;
+            this.guna2CheckBox3.Checked = true;
             this.guna2CheckBox3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2CheckBox3.CheckedState.BorderRadius = 2;
             this.guna2CheckBox3.CheckedState.BorderThickness = 0;
             this.guna2CheckBox3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CheckBox3.CheckMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.guna2CheckBox3.CheckState = System.Windows.Forms.CheckState.Checked;
             this.guna2CheckBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CheckBox3.Font = new System.Drawing.Font("Inter", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CheckBox3.ForeColor = System.Drawing.Color.Silver;
