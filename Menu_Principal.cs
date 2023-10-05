@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using Bunifu.UI.WinForms;
 using System.IO;
 using System.Drawing.Imaging;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Windows_Forms_DeskTop
 {
@@ -23,6 +24,7 @@ namespace Windows_Forms_DeskTop
         public menu_principal()
         {
             InitializeComponent();
+
             data = new Validate();
 
             if (bunifuDataGridView1.Columns.Contains("Status"))
@@ -125,8 +127,7 @@ namespace Windows_Forms_DeskTop
                     {
                         MemoryStream memory = new MemoryStream(data.ImagemFuncionario);
                         bunifuPictureBox5.Image = Image.FromStream(memory);
-                    }
-                        
+                    }  
 
                     DisableControls();
                 }
@@ -228,7 +229,9 @@ namespace Windows_Forms_DeskTop
         private void bunifuButton12_Click_1(object sender, EventArgs e)
         {
             Clear();
+            bunifuPictureBox5.Image = Image.FromFile("C:\\Users\\kelvy\\OneDrive\\Documentos\\Faculdade\\PIM\\Windows_Forms_DeskTop_Bckp_Dark2_Package_Final\\Resources\\image-removebg-preview.png");
             EnableControls();
+            bunifuTextBox24.Enabled = true;
         }
 
         private void DisableControls()

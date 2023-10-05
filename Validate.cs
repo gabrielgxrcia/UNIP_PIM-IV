@@ -82,7 +82,17 @@ namespace Windows_Forms_DeskTop
             var valid = false;
 
             SqlConnection conn = new SqlConnection(connectionString);
-            SqlCommand command = new SqlCommand("SELECT * FROM Funcionarios WHERE NomeCompleto = @nome", conn);
+            SqlCommand command;
+
+            if (name.Length > 13)
+            {
+                command = new SqlCommand("SELECT * FROM Funcionarios WHERE Email = @nome",conn);
+            }
+            else
+            {
+                command = new SqlCommand("SELECT * FROM Funcionarios WHERE NomeCompleto = @nome", conn);
+            }
+
 
             try
             {

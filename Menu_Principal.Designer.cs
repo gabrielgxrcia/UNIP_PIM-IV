@@ -1768,10 +1768,10 @@
             this.bunifuPages1.Location = new System.Drawing.Point(238, 49);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.Funcionário;
-            this.bunifuPages1.PageIndex = 1;
-            this.bunifuPages1.PageName = "Funcionário";
-            this.bunifuPages1.PageTitle = "Funcionario";
+            this.bunifuPages1.Page = this.Configurações;
+            this.bunifuPages1.PageIndex = 4;
+            this.bunifuPages1.PageName = "Configurações";
+            this.bunifuPages1.PageTitle = "Configurações";
             this.bunifuPages1.SelectedIndex = 0;
             this.bunifuPages1.Size = new System.Drawing.Size(950, 747);
             this.bunifuPages1.TabIndex = 10;
@@ -10388,6 +10388,7 @@
             this.bunifuTextBox7.DefaultFont = new System.Drawing.Font("Inter", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuTextBox7.DefaultText = "";
             this.bunifuTextBox7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.bunifuTextBox7.ForeColor = System.Drawing.Color.DarkGray;
             this.bunifuTextBox7.HideSelection = true;
             this.bunifuTextBox7.IconLeft = null;
             this.bunifuTextBox7.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
@@ -10418,7 +10419,7 @@
             this.bunifuTextBox7.OnHoverState = stateProperties163;
             stateProperties164.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             stateProperties164.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            stateProperties164.ForeColor = System.Drawing.Color.Empty;
+            stateProperties164.ForeColor = System.Drawing.Color.DarkGray;
             stateProperties164.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox7.OnIdleState = stateProperties164;
             this.bunifuTextBox7.Padding = new System.Windows.Forms.Padding(3);
@@ -10477,6 +10478,7 @@
             this.bunifuTextBox6.DefaultFont = new System.Drawing.Font("Inter", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuTextBox6.DefaultText = "";
             this.bunifuTextBox6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.bunifuTextBox6.ForeColor = System.Drawing.Color.DarkGray;
             this.bunifuTextBox6.HideSelection = true;
             this.bunifuTextBox6.IconLeft = null;
             this.bunifuTextBox6.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
@@ -10507,7 +10509,7 @@
             this.bunifuTextBox6.OnHoverState = stateProperties167;
             stateProperties168.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             stateProperties168.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            stateProperties168.ForeColor = System.Drawing.Color.Empty;
+            stateProperties168.ForeColor = System.Drawing.Color.DarkGray;
             stateProperties168.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox6.OnIdleState = stateProperties168;
             this.bunifuTextBox6.Padding = new System.Windows.Forms.Padding(3);
@@ -10566,6 +10568,7 @@
             this.bunifuTextBox5.DefaultFont = new System.Drawing.Font("Inter", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuTextBox5.DefaultText = "";
             this.bunifuTextBox5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.bunifuTextBox5.ForeColor = System.Drawing.Color.DarkGray;
             this.bunifuTextBox5.HideSelection = true;
             this.bunifuTextBox5.IconLeft = null;
             this.bunifuTextBox5.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
@@ -10596,7 +10599,7 @@
             this.bunifuTextBox5.OnHoverState = stateProperties171;
             stateProperties172.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             stateProperties172.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            stateProperties172.ForeColor = System.Drawing.Color.Empty;
+            stateProperties172.ForeColor = System.Drawing.Color.DarkGray;
             stateProperties172.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox5.OnIdleState = stateProperties172;
             this.bunifuTextBox5.Padding = new System.Windows.Forms.Padding(3);
@@ -10655,6 +10658,7 @@
             this.bunifuTextBox4.DefaultFont = new System.Drawing.Font("Inter", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuTextBox4.DefaultText = "";
             this.bunifuTextBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.bunifuTextBox4.ForeColor = System.Drawing.Color.DarkGray;
             this.bunifuTextBox4.HideSelection = true;
             this.bunifuTextBox4.IconLeft = null;
             this.bunifuTextBox4.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
@@ -10685,7 +10689,7 @@
             this.bunifuTextBox4.OnHoverState = stateProperties175;
             stateProperties176.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             stateProperties176.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            stateProperties176.ForeColor = System.Drawing.Color.Empty;
+            stateProperties176.ForeColor = System.Drawing.Color.DarkGray;
             stateProperties176.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox4.OnIdleState = stateProperties176;
             this.bunifuTextBox4.Padding = new System.Windows.Forms.Padding(3);
@@ -11470,8 +11474,6 @@
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private System.Windows.Forms.Panel panel8;
         private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel18;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel17;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton8;
         private System.Windows.Forms.PictureBox pictureBox2;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel16;
@@ -11483,7 +11485,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel15;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
-        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox2;
         private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox3;
         private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator1;
         private System.Windows.Forms.Panel panel1;
@@ -11571,13 +11572,9 @@
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox4;
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox3;
         private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator4;
-        private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox7;
         private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator3;
-        private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox6;
         private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator2;
-        private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox5;
         private Bunifu.UI.WinForms.BunifuSeparator bunifuSeparator1;
-        private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox4;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel39;
@@ -11738,5 +11735,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        public Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox2;
+        public Bunifu.UI.WinForms.BunifuLabel bunifuLabel18;
+        public Bunifu.UI.WinForms.BunifuLabel bunifuLabel17;
+        public Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox7;
+        public Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox6;
+        public Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox5;
+        public Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox4;
     }
 }
