@@ -237,92 +237,62 @@ namespace Windows_Forms_DeskTop
 
         private void DisableControls()
         {
-            bunifuTextBox24.Enabled = false;
-            bunifuTextBox23.Enabled = false;
-            bunifuTextBox32.Enabled = false;
-            bunifuTextBox29.Enabled = false;
-            bunifuTextBox25.Enabled = false;
-            bunifuTextBox26.Enabled = false;
-            bunifuTextBox28.Enabled = false;
-            bunifuDropdown4.Enabled = false;
-            bunifuTextBox31.Enabled = false;
-            bunifuTextBox35.Enabled = false;
-            bunifuTextBox34.Enabled = false;
-            bunifuTextBox33.Enabled = false;
-            bunifuTextBox39.Enabled = false;
-            bunifuTextBox38.Enabled = false;
-            bunifuTextBox37.Enabled = false;
-            bunifuTextBox36.Enabled = false;
-            bunifuTextBox41.Enabled = false;
-            bunifuTextBox40.Enabled = false;
-            bunifuTextBox42.Enabled = false;
-            bunifuDropdown5.Enabled = false;
-            bunifuDropdown6.Enabled = false;
-            bunifuTextBox30.Enabled = false;
-            bunifuTextBox27.Enabled = false;
-            bunifuDatePicker4.Enabled = false;
-            bunifuDatePicker5.Enabled = false;
-            bunifuDropdown3.Enabled = false;
+            foreach (Control obj in Funcionário.Controls)
+            {
+                if (obj is BunifuTextBox)
+                {
+                    obj.Enabled = false;
+                }
+            }
         }
 
         private void EnableControls()
         {
             bunifuTextBox24.Enabled = false;
-            bunifuTextBox23.Enabled = true;
-            bunifuTextBox32.Enabled = true;
-            bunifuTextBox29.Enabled = true;
-            bunifuTextBox25.Enabled = true;
-            bunifuTextBox26.Enabled = true;
-            bunifuTextBox28.Enabled = true;
-            bunifuDropdown4.Enabled = true;
-            bunifuTextBox31.Enabled = true;
-            bunifuTextBox35.Enabled = true;
-            bunifuTextBox34.Enabled = true;
-            bunifuTextBox33.Enabled = true;
-            bunifuTextBox39.Enabled = true;
-            bunifuTextBox38.Enabled = true;
-            bunifuTextBox37.Enabled = true;
-            bunifuTextBox36.Enabled = true;
-            bunifuTextBox41.Enabled = true;
-            bunifuTextBox40.Enabled = true;
-            bunifuTextBox42.Enabled = true;
-            bunifuDropdown5.Enabled = true;
-            bunifuDropdown6.Enabled = true;
-            bunifuTextBox30.Enabled = true;
-            bunifuTextBox27.Enabled = true;
-            bunifuDatePicker4.Enabled = true;
-            bunifuDatePicker5.Enabled = true;
-            bunifuDropdown3.Enabled = true;
+            foreach (Control control in Funcionário.Controls)
+            {
+                if (control is BunifuTextBox)
+                {
+                    control.Enabled = true;
+                }
+            }
         }
 
         private void Clear()
         {
-            bunifuTextBox24.Text = "";
-            bunifuTextBox23.Text = "";
-            bunifuTextBox32.Text = "";
-            bunifuTextBox29.Text = "";
-            bunifuTextBox25.Text = "";
-            bunifuTextBox26.Text = "";
-            bunifuTextBox28.Text = "";
-            bunifuDropdown4.Text = "";
-            bunifuTextBox31.Text = "";
-            bunifuTextBox35.Text = "";
-            bunifuTextBox34.Text = "";
-            bunifuTextBox33.Text = "";
-            bunifuTextBox39.Text = "";
-            bunifuTextBox38.Text = "";
-            bunifuTextBox37.Text = "";
-            bunifuTextBox36.Text = "";
-            bunifuTextBox41.Text = "";
-            bunifuTextBox40.Text = "";
-            bunifuTextBox42.Text = "";
-            bunifuDropdown5.Text = "";
-            bunifuDropdown6.Text = "";
-            bunifuTextBox30.Text = "";
-            bunifuTextBox27.Text = "";
-            bunifuDatePicker4.Text = "";
-            bunifuDatePicker5.Text = "";
-            bunifuDropdown3.Text = "";
+            /* bunifuTextBox24.Text = "";
+             bunifuTextBox23.Text = "";
+             bunifuTextBox32.Text = "";
+             bunifuTextBox29.Text = "";
+             bunifuTextBox25.Text = "";
+             bunifuTextBox26.Text = "";
+             bunifuTextBox28.Text = "";
+             bunifuDropdown4.Text = "";
+             bunifuTextBox31.Text = "";
+             bunifuTextBox35.Text = "";
+             bunifuTextBox34.Text = "";
+             bunifuTextBox33.Text = "";
+             bunifuTextBox39.Text = "";
+             bunifuTextBox38.Text = "";
+             bunifuTextBox37.Text = "";
+             bunifuTextBox36.Text = "";
+             bunifuTextBox41.Text = "";
+             bunifuTextBox40.Text = "";
+             bunifuTextBox42.Text = "";
+             bunifuDropdown5.Text = "";
+             bunifuDropdown6.Text = "";
+             bunifuTextBox30.Text = "";
+             bunifuTextBox27.Text = "";
+             bunifuDatePicker4.Text = "";
+             bunifuDatePicker5.Text = "";
+             bunifuDropdown3.Text = "";*/
+            foreach (Control control in Funcionário.Controls)
+            {
+                if (control is BunifuTextBox)
+                {
+                    control.Text = "";
+                }
+            }
         }
 
         private bool DataEdit()
@@ -377,9 +347,9 @@ namespace Windows_Forms_DeskTop
 
         private void bunifuLabel48_Click(object sender, EventArgs e)
         {
-            foreach (Control control in Controls)
+            foreach (Control control in Configurações.Controls)
             {
-                if (control is Guna.UI2.WinForms.Guna2CheckBox checkBox)
+                if (control is Guna2CheckBox checkBox)
                 {
                     checkBox.Checked = false;
                 }
